@@ -58,3 +58,26 @@ body {
 #new-quote:hover {
   background: #0d8ddf;
 }
+/* Ensure the wrapper takes full height and centers its content */
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+#wrapper {
+  display: flex;
+  justify-content: center;  /* centers horizontally */
+      /* centers vertically */
+  height: 100vh;            /* takes full screen height */
+}
+
+#quote-box {
+  width: 90%;
+  max-width: 600px;
+  background: #333;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  box-shadow: 0 0 15px rgba(0,0,0,0.3);
+}
