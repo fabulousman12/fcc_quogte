@@ -25,7 +25,7 @@ const quotesData = [
   },
 ];
 
-export const App = () => {
+const App = () => {
   const [quote, setQuote] = useState({ text: "", author: "" });
 
   useEffect(() => {
@@ -63,3 +63,5 @@ export const App = () => {
     </div>
   );
 };
+
+export default App;
